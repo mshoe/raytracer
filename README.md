@@ -1,1 +1,1 @@
-Voxel raytracer
+GPU voxel raytracer
