@@ -5,6 +5,13 @@ GameEngine::GameEngine()
 	Init();
 }
 
+GameEngine::GameEngine(int image_width, int image_height)
+{
+	this->image_width = image_width;
+	this->image_height = image_height;
+	Init();
+}
+
 GameEngine::~GameEngine()
 {
 	CleanUp();

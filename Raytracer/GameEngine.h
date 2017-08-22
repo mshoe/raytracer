@@ -9,6 +9,7 @@
 class GameEngine {
 public:
 	GameEngine();
+	GameEngine(int image_width, int image_height);
 	~GameEngine();
 
 	bool Init();

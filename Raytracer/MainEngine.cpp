@@ -29,8 +29,8 @@ bool MainEngine::Init()
     SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
     SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
     SDL_GL_SetAttribute(SDL_GL_STENCIL_SIZE, 8);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 2);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 4);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 3);
 	glEnable(GL_MULTISAMPLE);
 
 	// Create our window centered at 512x512 resolution
@@ -62,6 +62,7 @@ bool MainEngine::Init()
 
 	const GLubyte *renderer = glGetString( GL_RENDERER );
 	const GLubyte *version = glGetString( GL_VERSION );
+
 	printf( "Renderer: %s\n", renderer );
 	printf( "OpenGL version %s\n", version );
 
@@ -74,9 +75,7 @@ bool MainEngine::Init()
 
 	//inputEngine = new InputEngine;
 
-	gameEngine = new GameEngine;
-	gameEngine->image_width = image_width;
-	gameEngine->image_height = image_height;
+	gameEngine = new GameEngine(image_width, image_height);
 
 	//renderEngine = new VoxelRenderer(gameEngine->getVoxelEngine());
 

@@ -49,7 +49,7 @@ public:
 
 	// Our opengl context handle
 	SDL_GLContext mainContext;
-	std::string programName = "Dark World by mshoe";
+	std::string programName = "Raytracer by mshoe";
 	bool SetOpenGLAttributes();
 	void PrintSDL_GL_Attributes();
 	void CheckSDLError(int line);

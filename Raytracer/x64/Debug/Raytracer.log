@@ -1,3 +1,9 @@
 ﻿  MainEngine.cpp
-  Raytracer.vcxproj -> C:\Users\mxuor\OneDrive\Documents\Visual Studio 2015\Projects\Raytracer\x64\Debug\Raytracer.exe
-  Raytracer.vcxproj -> C:\Users\mxuor\OneDrive\Documents\Visual Studio 2015\Projects\Raytracer\x64\Debug\Raytracer.pdb (Partial PDB)
+  GameEngine.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  RenderEngine.cpp
+  InputEngine.cpp
+  Raytracer.vcxproj -> C:\Users\Michael Xu\Documents\raytracer\x64\Debug\Raytracer.exe
+  Raytracer.vcxproj -> C:\Users\Michael Xu\Documents\raytracer\x64\Debug\Raytracer.pdb (Partial PDB)
